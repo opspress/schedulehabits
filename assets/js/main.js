@@ -148,8 +148,8 @@
             event.preventDefault();
             var address = $('#email').val();
             $.post({
-                url: ' https://opspress.cloud.tyk.io/request-beta-invite/',
-                data: {address: address, app: 'flexcalls'}
+                url: ' https://opspress.cloud.tyk.io/request-schedulehabits-beta-invite/',
+                data: {address: address, app: 'schedulehabits'}
             }).done(function (data) {
                 console.log(data);
                 $('.message').addClass('success visible').html("You'll receive a beta invite soon");
